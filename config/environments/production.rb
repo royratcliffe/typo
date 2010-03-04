@@ -19,5 +19,5 @@ config.action_controller.perform_caching             = true
 Migrator.offer_migration_when_available            = true
 
 # for Heroku
-ActionController::Base.page_cache_directory = "#{RAILS_ROOT}/tmp"
-config.cache_store = :file_store, "#{RAILS_ROOT}/tmp"
+ActionController::Base.page_cache_directory = "#{RAILS_ROOT}/tmp/"
+config.cache_store = :file_store, "#{RAILS_ROOT}/tmp/"
