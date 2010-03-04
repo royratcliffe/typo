@@ -17,3 +17,7 @@ config.action_controller.perform_caching             = true
 # config.action_mailer.raise_delivery_errors = false
 
 Migrator.offer_migration_when_available            = true
+
+# for Heroku
+ActionController::Base.page_cache_directory = "#{RAILS_ROOT}/tmp"
+config.cache_store = :file_store, "#{RAILS_ROOT}/tmp"
