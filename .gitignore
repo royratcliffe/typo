@@ -7,8 +7,4 @@ db/schema.rb
 .*.swp
 .DS_Store
 installer/rails_installer.yml
-/public/files
-/public/images/theme
-/public/javascripts/ckeditor/config.js
-/public/stylesheets/theme
 tmp/*
